@@ -1,5 +1,49 @@
 * {
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+body,
+html {
+  background-color: aliceblue;
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+}
+.header {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  font-weight: 700;
+  border: 1px solid black;
+  height: 10%;
+  margin-bottom: 1%;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  background-color: antiquewhite;
+  height: 80%;
+  width: 60%;
+}
+.main .header {
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: aqua;
+}
+.main .table {
+    margin: 0px;
     padding: 0px;
-    border: 0px;
-    box-sizing: border-box;
+    width: 80%;
+}
+.textcenter {
+    text-align: center;
 }
