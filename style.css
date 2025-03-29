@@ -5,7 +5,7 @@
 }
 body,
 html {
-  background-color: aliceblue;
+  background-color: rgb(187, 214, 238);
   height: 100%;
 }
 .container {
@@ -15,35 +15,65 @@ html {
   justify-content: center;
 }
 .header {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 50px;
   font-weight: 700;
   border: 1px solid black;
+  width: 100%;
   height: 10%;
   margin-bottom: 1%;
 }
 .main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  background-color: antiquewhite;
-  height: 80%;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(167, 176, 184);
+  height: 100%;
   width: 60%;
 }
-.main .header {
-    width: 100%;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    font-weight: 700;
-    background-color: aqua;
+.main .mainheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 33px;
+  font-weight: 700;
+  background-color: rgb(223, 244, 244);
+  height: 10%;
 }
 .main .table {
-    margin: 0px;
-    padding: 0px;
-    width: 80%;
+  margin: 0px;
+  padding: 0px;
+  width: 80%;
+  height: 30%;
+}
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  font-family: 'Courier New', Courier, monospace;
+  border-collapse: collapse;
+  height: 10%;
+}
+td {
+  text-align: center;
+}
+th {
+  font-size: 28px;
+}
+tr {
+  height: 40px;
+}
+.bold {
+  font-weight: bold;
 }
 .textcenter {
-    text-align: center;
+  text-align: center;
 }
